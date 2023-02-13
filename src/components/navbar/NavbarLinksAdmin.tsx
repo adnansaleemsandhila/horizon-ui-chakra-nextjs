@@ -132,12 +132,12 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 					maxW={{ base: '360px', md: 'unset' }}>
 					<Image src={navImage} borderRadius='16px' mb='28px' />
 					<Flex flexDirection='column'>
-						<Link w='100%' href='https://horizon-ui.com/pro'>
+						<Link w='100%' href='#'>
 							<Button w='100%' h='44px' mb='10px' variant='brand'>
-								Buy Horizon UI PRO
+								Buy Helpertone PRO
 							</Button>
 						</Link>
-						<Link w='100%' href='https://horizon-ui.com/documentation/docs/introduction'>
+						<Link w='100%' href='#'>
 							<Button
 								w='100%'
 								h='44px'
@@ -148,11 +148,11 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 								See Documentation
 							</Button>
 						</Link>
-						<Link w='100%' href='https://github.com/horizon-ui/horizon-ui-chakra-nextjs'>
+						{/* <Link w='100%' href='https://github.com/horizon-ui/horizon-ui-chakra-nextjs'>
 							<Button w='100%' h='44px' variant='no-hover' color={textColor} bg='transparent'>
 								Try Horizon Free
 							</Button>
-						</Link>
+						</Link> */}
 					</Flex>
 				</MenuList>
 			</Menu>

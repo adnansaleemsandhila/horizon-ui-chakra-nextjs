@@ -59,11 +59,11 @@ export default function SidebarDocs () {
           mb='14px'
           textAlign='center'
         >
-          Improve your development process and start doing more with Horizon UI
+          Improve your recruitment process and start doing more with Helpertone
           PRO!
         </Text>
       </Flex>
-      <Link href='https://horizon-ui.com/pro'>
+      <Link href='#'>
         <Button
           bg='whiteAlpha.300'
           _hover={{ bg: 'whiteAlpha.200' }}
